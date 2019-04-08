@@ -1,0 +1,71 @@
+.Introduction {
+  grid-area: introduction;
+
+  /* background-image: linear-gradient(
+    var(--color-blue-medium),
+    var(--color-blue-light),
+    var(--color-blue-medium)
+  ); */
+  background-color: var(--color-blue-medium);
+
+  color: var(--font-light);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 10px;
+}
+
+.introduction-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 75px;
+}
+
+.Introduction .introduction-text {
+  width: 50%;
+}
+
+.Introduction .introduction-table {
+  /* border: 1px solid var(--font-light); */
+
+  padding: 30px;
+  margin: 30px;
+
+  border-radius: 10px;
+  color: black;
+  background-color: #fff;
+  width: 75%;
+
+  border-collapse: collapse;
+}
+
+.Introduction .introduction-table td {
+  text-align: center;
+  border-left: 1px solid var(--font-light);
+  padding: 20px;
+  /* width: 300px; */
+}
+
+.Introduction .introduction-table td:first-child {
+  border-left: none;
+}
+
+.Introduction .introduction-table td i {
+  color: var(--color-blue-medium);
+  font-size: 40px;
+}
+
+.Introduction .introduction-table .table-heading-small {
+  color: var(--color-blue-medium);
+  font-size: 25px;
+}
+
+.Introduction .introduction-table ul {
+  list-style: none;
+}

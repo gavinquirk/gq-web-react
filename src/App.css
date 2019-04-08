@@ -1,4 +1,8 @@
 .App {
+  color: var(--font-dark);
+
+  line-height: 30px;
+
   display: grid;
 
   grid-template-columns: repeat(12, 1fr);
@@ -6,8 +10,9 @@
 
   grid-template-areas:
     'nav nav nav nav nav nav nav nav nav nav nav nav'
-    'lander lander lander lander lander lander lander lander lander lander lander lander';
-  /* grid-template-areas: 'nav nav nav nav nav nav nav nav nav nav nav nav' */
+    'lander lander lander lander lander lander lander lander lander lander lander lander'
+    'introduction introduction introduction introduction introduction introduction introduction introduction introduction introduction introduction introduction'
+    'portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio';
 }
 
 .heading {
@@ -19,4 +24,15 @@
   padding: 10px 20px;
 
   margin-bottom: 20px;
+}
+
+.heading-medium {
+  font-size: 40px;
+  padding: 10px 20px;
+
+  margin-bottom: 20px;
+}
+
+.heading-small {
+  font-size: 30px;
 }

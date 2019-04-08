@@ -8,6 +8,7 @@ export default class Lander extends Component {
       <div className='Lander'>
         <h1 className='heading heading-large'>Web Designer and Developer</h1>
         <img className='avatar' src='./images/avatar.svg' />
+        {/* <img className='computing' src='./images/computing.svg' /> */}
       </div>
     );
   }

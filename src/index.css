@@ -1,3 +1,11 @@
+:root {
+  --color-blue-medium: #0b5de2;
+  --color-blue-light: #4a9bf7;
+
+  --font-dark: #131516;
+  --font-light: #f2f3f4;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +20,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: 'Roboto Condensed', sans-serif;
+
+  font-size: 20px;
+  box-sizing: border-box;
 }
 
 code {

@@ -2,8 +2,18 @@
   grid-area: lander;
 
   text-align: center;
+
+  height: 800px;
+}
+
+.Lander img {
+  display: block;
 }
 
 .Lander .avatar {
   width: 500px;
+}
+
+.Lander .computing {
+  width: 1000px;
 }
