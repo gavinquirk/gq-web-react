@@ -3,11 +3,28 @@
 
   text-align: center;
 
-  height: 800px;
+  height: 85vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.Lander .heading-large {
+  padding-bottom: 20px;
+}
+
+.Lander .subheading {
+  font-size: 28px;
+  padding-bottom: 50px;
 }
 
 .Lander img {
   display: block;
+
+  margin: 0 auto;
 }
 
 .Lander .avatar {
