@@ -1,0 +1,9 @@
+.Lander {
+  grid-area: lander;
+
+  text-align: center;
+}
+
+.Lander .avatar {
+  width: 500px;
+}
