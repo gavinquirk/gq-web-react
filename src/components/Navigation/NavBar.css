@@ -1,9 +1,8 @@
 .NavBar {
   /* color: white; */
 
-  height: 50px;
-
-  grid-area: nav;
+  grid-column: 1 / 13;
+  grid-row: 1;
 
   display: flex;
 

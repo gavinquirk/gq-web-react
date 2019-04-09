@@ -1,7 +1,10 @@
 .Portfolio {
-  grid-area: portfolio;
+  grid-column: 1 / -1;
+  grid-row: 6;
   /* height: 1000px; */
   text-align: center;
+
+  /* margin-top: 250px; */
 }
 
 .portfolio-grid {

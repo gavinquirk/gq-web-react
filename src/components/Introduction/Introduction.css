@@ -1,5 +1,6 @@
 .Introduction {
-  grid-area: introduction;
+  grid-column: 1 / -1;
+  grid-row: 3 / 5;
 
   /* background-image: linear-gradient(
     var(--color-blue-medium),
@@ -15,44 +16,15 @@
   align-items: center;
   justify-content: center;
 
-  padding: 100px 10px;
+  /* padding: 100px 10px; */
+  /* Padding to add room for overlapping Skills component */
+  padding-bottom: 150px;
 }
 
-.introduction-start {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  padding-bottom: 75px;
+.introduction-content {
+  padding: 100px 0;
 }
 
 .Introduction .introduction-text {
   width: 700px;
-}
-
-.introduction-skills {
-  color: var(--font-dark);
-  background-color: var(--color-white);
-  width: 75%;
-  border-radius: 10px;
-
-  text-align: center;
-
-  display: flex;
-}
-
-.skills-section {
-  padding: 10px;
-}
-
-.skills-tools {
-  list-style: none;
-}
-
-@media only screen and (max-width: 900px) {
-  .introduction-skills {
-    flex-direction: column;
-    width: 90%;
-  }
 }
