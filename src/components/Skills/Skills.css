@@ -12,33 +12,48 @@
 
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-
-  /* border: 1px solid black; */
 }
 
 .skill {
   display: grid;
   border: 1px solid black;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 
   grid-template-columns: 1;
-  grid-template-rows: 75px 75px 150px 75px;
+  grid-template-rows: auto auto auto auto auto auto 150px;
 }
 
 .skill:first-child {
   border-radius: 10px 0 0 10px;
+  border-right: none;
 }
 
 .skill:last-child {
   border-radius: 0 10px 10px 0;
+  border-left: none;
 }
 
+/* SKILL SECTIONS */
 .skill-icon i {
   font-size: 50px;
   color: var(--color-blue-medium);
 }
 
+.skill-main-heading {
+  font-size: 30px;
+}
+
+.skill-subheading {
+  color: var(--color-blue-medium);
+  /* padding-bottom: 15px; */
+}
+
+.skill-tools {
+  list-style: none;
+}
+
+/* MEDIA QUERY -- 600 */
 @media only screen and (max-width: 600px) {
   .Skills {
     grid-template-columns: auto;
