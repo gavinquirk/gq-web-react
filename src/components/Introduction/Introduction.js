@@ -19,89 +19,62 @@ export default class Introduction extends Component {
           </p>
         </div>
 
-        <table className='introduction-table'>
-          <tr>
-            <td>
-              <i class='far fa-object-ungroup' />
-            </td>
-            <td>
-              <i class='far fa-file-code' />
-            </td>
-            <td>
-              <i class='fas fa-server' />
-            </td>
-          </tr>
-
-          <tr>
-            <td className='table-section'>
-              <h4 className='heading heading-small'>Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae molestiae hic provident. Mollitia, vero iusto.
-              </p>
-            </td>
-            <td className='table-section'>
-              <h4 className='heading heading-small'>Front-End</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae molestiae hic provident. Mollitia, vero iusto.
-              </p>
-            </td>
-            <td className='table-section'>
-              <h4 className='heading heading-small'>Back-End</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae molestiae hic provident. Mollitia, vero iusto.
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td className='table-section'>
-              <h4 className='table-heading-small'>What I Design</h4>
-              <p>UI, UX, Web Apps, Mobile Responsive</p>
-            </td>
-            <td className='table-section'>
-              <h4 className='table-heading-small'>Languages I Use</h4>
-              <p>HTML, CSS, SCSS, JavaScript</p>
-            </td>
-            <td className='table-section'>
-              <h4 className='table-heading-small'>Languages I Use</h4>
-              <p>JavaScript, PHP</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td className='table-section'>
-              <h4 className='table-heading-small'>My Favorite Tools</h4>
-              <ul>
-                <li>Pen and Paper</li>
-                <li>Photoshop</li>
-                <li>Wacom Tablet</li>
-              </ul>
-            </td>
-            <td className='table-section'>
-              <h4 className='table-heading-small'>My Favorite Tools</h4>
-              <ul>
-                <li>React.js</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-                <li>Materialize</li>
-                <li>CSS Grid</li>
-              </ul>
-            </td>
-            <td className='table-section'>
-              <h4 className='table-heading-small'>My Favorite Tools</h4>
-              <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
-                <li>MySQL</li>
-                <li>Docker</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
+        <div className='introduction-skills'>
+          <div className='skills-section design'>
+            <p className='skills-icon'>ICON</p>
+            <h4 className='skills-heading'>Design</h4>
+            <p className='skills-text'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+              nesciunt facilis. Rem obcaecati recusandae sequi vero numquam
+              vitae tempore voluptates.
+            </p>
+            <h5 className='skills-subheading'>What I Design</h5>
+            <p className='skills-languages'>apps, mobile, etc</p>
+            <h5 className='skills-subheading'>My Favorite Tools</h5>
+            <ul className='skills-tools'>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+            </ul>
+          </div>
+          <div className='skills-section design'>
+            <p className='skills-icon'>ICON</p>
+            <h4 className='skills-heading'>Design</h4>
+            <p className='skills-text'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+              nesciunt facilis. Rem obcaecati recusandae sequi vero numquam
+              vitae tempore voluptates.
+            </p>
+            <h5 className='skills-subheading'>What I Design</h5>
+            <p className='skills-languages'>apps, mobile, etc</p>
+            <h5 className='skills-subheading'>My Favorite Tools</h5>
+            <ul className='skills-tools'>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+            </ul>
+          </div>
+          <div className='skills-section design'>
+            <p className='skills-icon'>ICON</p>
+            <h4 className='skills-heading'>Design</h4>
+            <p className='skills-text'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+              nesciunt facilis. Rem obcaecati recusandae sequi vero numquam
+              vitae tempore voluptates.
+            </p>
+            <h5 className='skills-subheading'>What I Design</h5>
+            <p className='skills-languages'>apps, mobile, etc</p>
+            <h5 className='skills-subheading'>My Favorite Tools</h5>
+            <ul className='skills-tools'>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+              <li className='li'>tool 1</li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }

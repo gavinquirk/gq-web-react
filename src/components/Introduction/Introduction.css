@@ -28,44 +28,31 @@
 }
 
 .Introduction .introduction-text {
-  width: 50%;
+  width: 700px;
 }
 
-.Introduction .introduction-table {
-  /* border: 1px solid var(--font-light); */
-
-  padding: 30px;
-  margin: 30px;
-
-  border-radius: 10px;
-  color: black;
-  background-color: #fff;
+.introduction-skills {
+  color: var(--font-dark);
+  background-color: var(--color-white);
   width: 75%;
+  border-radius: 10px;
 
-  border-collapse: collapse;
-}
-
-.Introduction .introduction-table td {
   text-align: center;
-  border-left: 1px solid var(--font-light);
-  padding: 20px;
-  /* width: 300px; */
+
+  display: flex;
 }
 
-.Introduction .introduction-table td:first-child {
-  border-left: none;
+.skills-section {
+  padding: 10px;
 }
 
-.Introduction .introduction-table td i {
-  color: var(--color-blue-medium);
-  font-size: 40px;
-}
-
-.Introduction .introduction-table .table-heading-small {
-  color: var(--color-blue-medium);
-  font-size: 25px;
-}
-
-.Introduction .introduction-table ul {
+.skills-tools {
   list-style: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .introduction-skills {
+    flex-direction: column;
+    width: 90%;
+  }
 }
