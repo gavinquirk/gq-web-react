@@ -1,0 +1,71 @@
+.PortfolioCard {
+  color: var(--font-light);
+  position: relative;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portfolio-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  background-color: var(--color-blue-medium);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-image-overlay-content {
+  height: 50%;
+  /* width: 100%; */
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.portfolio-image-overlay-content h4 {
+  padding-bottom: 15px;
+}
+
+.portfolio-image-overlay-buttons {
+  /* position: absolute;
+  bottom: 0;
+  padding: 20px; */
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio-image-overlay-buttons button {
+  padding: 3px 5px;
+
+  border-radius: 10px;
+}
+
+.PortfolioCard:hover .portfolio-image-overlay {
+  opacity: 1;
+}
+
+/* .PortfolioCard:hover .portfolio-image {
+  opacity: 0;
+} */

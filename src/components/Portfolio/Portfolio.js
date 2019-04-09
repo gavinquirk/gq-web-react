@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import PortfolioCard from './PortfolioCard/PortfolioCard';
+
 import './Portfolio.css';
 
 export default class Portfolio extends Component {
@@ -8,14 +10,16 @@ export default class Portfolio extends Component {
       <div className='Portfolio'>
         <h1 className='heading heading-large'>My Projects</h1>
         <div className='portfolio-grid'>
-          <div className='card card-1'>card</div>
-          <div className='card card-2'>card</div>
-          <div className='card card-3'>card</div>
-          <div className='card card-4'>card</div>
-          <div className='card card-5'>card</div>
-          <div className='card card-6'>card</div>
+          <PortfolioCard />
+          <PortfolioCard />
+          <PortfolioCard />
+          <PortfolioCard />
+          <PortfolioCard />
+          <PortfolioCard />
         </div>
       </div>
     );
   }
 }
+
+// Projects that will be used: devconnector, natours, trillo, nexter, burger-builder, react-ecommerce

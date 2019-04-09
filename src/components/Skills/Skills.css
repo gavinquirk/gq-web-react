@@ -3,6 +3,7 @@
   grid-row: 4 / 6;
 
   border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(35, 35, 36, 0.308);
 
   background-color: var(--color-white);
 

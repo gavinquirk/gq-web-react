@@ -18,7 +18,7 @@
 
   /* padding: 100px 10px; */
   /* Padding to add room for overlapping Skills component */
-  padding-bottom: 250px;
+  padding-bottom: 400px;
 }
 
 .introduction-content {
@@ -34,11 +34,11 @@
     padding-bottom: 650px;
   }
   .introduction-content {
-    width: 300px;
-    padding: 10px;
+    width: auto;
+    padding: 20px;
   }
 
   .introduction-text {
-    width: 300px;
+    width: auto;
   }
 }

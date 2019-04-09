@@ -27,7 +27,7 @@
 }
 
 .Lander .avatar {
-  width: 500px;
+  width: 700px;
 }
 
 .Lander .computing {
@@ -36,6 +36,6 @@
 
 @media only screen and (max-width: 600px) {
   .Lander .avatar {
-    width: 200px;
+    width: 300px;
   }
 }
