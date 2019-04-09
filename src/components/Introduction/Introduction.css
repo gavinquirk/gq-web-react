@@ -18,13 +18,27 @@
 
   /* padding: 100px 10px; */
   /* Padding to add room for overlapping Skills component */
-  padding-bottom: 150px;
+  padding-bottom: 250px;
 }
 
 .introduction-content {
   padding: 100px 0;
 }
 
-.Introduction .introduction-text {
+.introduction-text {
   width: 700px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Introduction {
+    padding-bottom: 650px;
+  }
+  .introduction-content {
+    width: 300px;
+    padding: 10px;
+  }
+
+  .introduction-text {
+    width: 300px;
+  }
 }

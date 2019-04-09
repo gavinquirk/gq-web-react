@@ -4,7 +4,7 @@
   display: grid;
 
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 50px auto auto 150px 150px auto auto auto auto;
+  grid-template-rows: 50px auto auto 250px 250px auto auto auto auto;
 
   /* grid-template-areas:
     'nav nav nav nav nav nav nav nav nav nav nav nav'
@@ -33,4 +33,10 @@
 
 .heading-small {
   font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    grid-template-rows: 50px auto auto auto auto auto auto auto auto;
+  }
 }
