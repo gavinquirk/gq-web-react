@@ -1,4 +1,10 @@
 .Testimonials {
-  grid-column: 1 / -1;
+  grid-column: 2 / 12;
   grid-row: 8;
+
+  text-align: center;
+}
+
+.Testimonials h1 {
+  margin: 0 auto;
 }

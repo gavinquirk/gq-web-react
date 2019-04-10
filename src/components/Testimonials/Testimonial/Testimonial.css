@@ -1,0 +1,21 @@
+.Testimonial {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.Testimonial img {
+  max-height: 150px;
+  padding: 20px;
+}
+
+.Testimonial p {
+  max-width: 500px;
+  padding-bottom: 15px;
+
+  text-align: center;
+}
