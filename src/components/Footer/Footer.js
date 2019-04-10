@@ -19,6 +19,9 @@ export default class Footer extends Component {
         </div>
         <p>Hand crafted by Gavin Quirk</p>
         <p>gavinquirk.work@gmail.com</p>
+        <p>
+          Illustration credit: <a href='https://vecteezy.com'>Vecteezy.com</a>
+        </p>
         <div className='footer-certifications'>
           <img src='./images/badge_html_css.png' alt='badge' />
           <img src='./images/badge_javascript_jquery.png' alt='badge' />

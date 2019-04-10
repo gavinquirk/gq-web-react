@@ -1,6 +1,6 @@
 .Footer {
   grid-column: 1 / -1;
-  grid-row: 8;
+  grid-row: 9;
 
   color: var(--font-light);
   padding: 50px;
