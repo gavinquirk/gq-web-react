@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './Skills.css';
 
+// TODO: Responsiveness, borders in media query
+
 export default class Skills extends Component {
   render() {
     return (
