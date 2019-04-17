@@ -6,6 +6,7 @@ import Introduction from './components/Introduction/Introduction';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 import './App.css';
@@ -20,6 +21,7 @@ class App extends Component {
         <Skills />
         <Portfolio />
         <Testimonials />
+        <Contact />
         <Footer />
       </div>
     );

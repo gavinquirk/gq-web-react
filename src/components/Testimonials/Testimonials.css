@@ -1,8 +1,10 @@
 .Testimonials {
   grid-column: 2 / 12;
-  grid-row: 8;
+  grid-row: 7;
 
   text-align: center;
+
+  padding: 75px 0;
 }
 
 .Testimonials h1 {

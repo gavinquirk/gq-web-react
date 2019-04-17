@@ -5,11 +5,12 @@
   text-align: center;
 
   /* margin-top: 250px; */
+  padding: 75px 0;
 }
 
-.Portfolio h1 {
+/* .Portfolio h1 {
   margin-top: 75px;
-}
+} */
 
 .portfolio-grid {
   display: grid;

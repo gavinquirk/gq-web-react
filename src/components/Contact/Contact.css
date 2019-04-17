@@ -1,0 +1,13 @@
+.Contact {
+  grid-column: 1 / -1;
+  grid-row: 8;
+
+  padding: 75px 0;
+  background-color: var(--color-blue-light);
+  color: var(--font-light);
+  text-align: center;
+}
+
+.Contact h1 {
+  text-align: center;
+}

@@ -5,10 +5,8 @@
   color: var(--font-light);
   padding: 50px;
   text-align: center;
-  margin-top: 50px;
 
-  /* height: 200px; */
-  background-color: var(--color-blue-medium);
+  background-color: var(--color-blue-dark);
 
   display: flex;
   flex-direction: column;
@@ -46,8 +44,10 @@
 .footer-social a {
   font-size: 50px;
   color: var(--font-light);
+  transition: all 0.3s;
 }
 
 .footer-social a:hover {
-  color: lightblue;
+  color: var(--color-blue-light);
+  transform: scale(1.3);
 }
