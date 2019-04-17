@@ -13,14 +13,15 @@ export default class PortfolioCard extends Component {
         />
         <div className='portfolio-image-overlay'>
           <div className='portfolio-image-overlay-content'>
-            <h4>TITLE</h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
-              blanditiis?
-            </p>
+            <h2>{this.props.name}</h2>
+            <p>{this.props.description}</p>
             <div className='portfolio-image-overlay-buttons'>
-              <button>BUTTON</button>
-              <button>BUTTON</button>
+              <a href={this.props.github} target='_blank'>
+                <button>Github</button>
+              </a>
+              <a href={this.props.deployment} target='_blank'>
+                <button>Live Site</button>
+              </a>
             </div>
           </div>
         </div>

@@ -6,16 +6,29 @@ import './Portfolio.css';
 
 export default class Portfolio extends Component {
   render() {
+    const projectIterator = projects.map(project => {
+      return (
+        <PortfolioCard
+          key={project.name}
+          name={project.name}
+          description={project.description}
+          github={project.github}
+          deployment={project.deployment}
+        />
+      );
+    });
+
     return (
       <div className='Portfolio'>
         <h1 className='heading heading-large'>My Projects</h1>
         <div className='portfolio-grid'>
+          {/* <PortfolioCard />
           <PortfolioCard />
           <PortfolioCard />
           <PortfolioCard />
           <PortfolioCard />
-          <PortfolioCard />
-          <PortfolioCard />
+          <PortfolioCard /> */}
+          {projectIterator}
         </div>
       </div>
     );

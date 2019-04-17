@@ -4,6 +4,8 @@
 
   border-radius: 10px;
   overflow: hidden;
+
+  transition: all 0.3s;
 }
 
 .portfolio-image {
@@ -57,13 +59,35 @@
 }
 
 .portfolio-image-overlay-buttons button {
-  padding: 3px 5px;
+  font-size: 100%;
+  font-family: inherit;
+  padding: 5px 8px;
+  color: var(--font-light);
+  border: 2px solid var(--font-light);
 
   border-radius: 10px;
+
+  background-color: var(--color-blue-medium);
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.portfolio-image-overlay-buttons button:hover {
+  color: var(--font-dark);
+  background-color: var(--font-light);
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px 1px rgba(35, 35, 36, 0.308);
 }
 
 .PortfolioCard:hover .portfolio-image-overlay {
   opacity: 1;
+}
+
+.PortfolioCard:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 10px 1px rgba(35, 35, 36, 0.308);
+  z-index: 5;
 }
 
 /* .PortfolioCard:hover .portfolio-image {
