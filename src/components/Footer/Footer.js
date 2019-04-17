@@ -22,13 +22,13 @@ export default class Footer extends Component {
         <p>
           Illustration credit: <a href='https://vecteezy.com'>Vecteezy.com</a>
         </p>
-        <div className='footer-certifications'>
+        {/* <div className='footer-certifications'>
           <img src='./images/badge_html_css.png' alt='badge' />
           <img src='./images/badge_javascript_jquery.png' alt='badge' />
           <img src='./images/badge_node_express.png' alt='badge' />
           <img src='./images/badge_react.png' alt='badge' />
           <img src='./images/badge_sql_nosql.png' alt='badge' />
-        </div>
+        </div> */}
       </div>
     );
   }
