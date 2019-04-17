@@ -12,16 +12,16 @@ class NavBar extends Component {
 
   componentDidMount() {
     // Make nav opaque after scrolling down
-    window.onscroll = () => {
-      if (window.scrollY <= 200) {
-        this.setState({ navColor: 'transparent', boxShadow: 'none' });
-      } else if (window.scrollY >= 200) {
-        this.setState({
-          navColor: 'linear-gradient(#586874, #1d2c33)',
-          boxShadow: '0px 1px 20px 1px rgba(41, 41, 41, 0.5)'
-        });
-      }
-    };
+    // window.onscroll = () => {
+    //   if (window.scrollY <= 200) {
+    //     this.setState({ navColor: 'transparent', boxShadow: 'none' });
+    //   } else if (window.scrollY >= 200) {
+    //     this.setState({
+    //       navColor: 'linear-gradient(#586874, #1d2c33)',
+    //       boxShadow: '0px 1px 20px 1px rgba(41, 41, 41, 0.5)'
+    //     });
+    //   }
+    // };
   }
 
   render() {
@@ -33,7 +33,8 @@ class NavBar extends Component {
           boxShadow: this.state.boxShadow
         }}
       >
-        <i className='fab fa-galactic-republic' />
+        {/* <img src='./images/gq_favicon_1.png' alt='logo' /> */}
+        <span className='logo-text'>GQ</span>
         <NavigationItems />
       </nav>
     );

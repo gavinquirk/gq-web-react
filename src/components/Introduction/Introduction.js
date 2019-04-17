@@ -11,11 +11,11 @@ export default class Introduction extends Component {
             My name's Gavin. Nice to meet you.
           </h2>
           <p className='introduction-text'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-            beatae delectus vel in aliquam eaque consectetur similique natus
-            velit optio provident cum esse aut voluptate ullam exercitationem ut
-            explicabo, odio asperiores? Nesciunt suscipit nulla, nihil sit
-            consequatur voluptatibus inventore praesentium.
+            I am a freelance web developer based in California, and I create
+            everything from simple personal sites to complex and customized
+            full-stack applications. I like to use modern yet compatable
+            technologies allowing for the creation of fast and beautiful
+            websites.
           </p>
         </div>
       </div>
