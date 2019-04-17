@@ -12,10 +12,18 @@ export default class PortfolioCard extends Component {
             <h2>{this.props.name}</h2>
             <p>{this.props.description}</p>
             <div className='portfolio-image-overlay-buttons'>
-              <a href={this.props.github} target='_blank'>
+              <a
+                href={this.props.github}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <button>Github</button>
               </a>
-              <a href={this.props.deployment} target='_blank'>
+              <a
+                href={this.props.deployment}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <button>Live Site</button>
               </a>
             </div>

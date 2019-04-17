@@ -7,10 +7,18 @@ export default class Footer extends Component {
     return (
       <div className='Footer'>
         <div className='footer-social'>
-          <a href='https://github.com/gavinquirk' target='_blank'>
+          <a
+            href='https://github.com/gavinquirk'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <i className='fab fa-github-square' />
           </a>
-          <a href='https://www.linkedin.com/in/gavin-quirk/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/gavin-quirk/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <i className='fab fa-linkedin' />
           </a>
           <a href='mailto:gavinquirk.work@gmail.com'>
@@ -20,7 +28,14 @@ export default class Footer extends Component {
         <p>Hand crafted by Gavin Quirk</p>
         <p>gavinquirk.work@gmail.com</p>
         <p>
-          Illustration credit: <a href='https://vecteezy.com'>Vecteezy.com</a>
+          Illustration credit:{' '}
+          <a
+            href='https://vecteezy.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Vecteezy.com
+          </a>
         </p>
         {/* <div className='footer-certifications'>
           <img src='./images/badge_html_css.png' alt='badge' />
