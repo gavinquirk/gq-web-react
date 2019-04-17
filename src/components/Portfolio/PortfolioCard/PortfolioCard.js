@@ -6,11 +6,7 @@ export default class PortfolioCard extends Component {
   render() {
     return (
       <div className='PortfolioCard'>
-        <img
-          className='portfolio-image'
-          src='./images/img-placeholder.jpg'
-          alt='project'
-        />
+        <img className='portfolio-image' src={this.props.image} alt='project' />
         <div className='portfolio-image-overlay'>
           <div className='portfolio-image-overlay-content'>
             <h2>{this.props.name}</h2>

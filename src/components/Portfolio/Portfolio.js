@@ -10,6 +10,7 @@ export default class Portfolio extends Component {
       return (
         <PortfolioCard
           key={project.name}
+          image={project.image}
           name={project.name}
           description={project.description}
           github={project.github}
@@ -39,6 +40,7 @@ export default class Portfolio extends Component {
 const projects = [
   {
     name: 'Dev Connector',
+    image: './images/devconnector_logo.png',
     description:
       'Connect with other developers using this social media application. Built with MERN stack',
     github: 'https://github.com/gavinquirk/devconnector',
@@ -46,6 +48,7 @@ const projects = [
   },
   {
     name: 'Natours',
+    image: './images/natours_logo.png',
     description:
       'A landing page for a nature tour company, it uses modern CSS attributes and transitions',
     github: 'https://github.com/gavinquirk/natours',
@@ -53,6 +56,7 @@ const projects = [
   },
   {
     name: 'Trillo',
+    image: './images/trillo_logo.png',
     description:
       'A page for a hotel booking company. It utilizes CSS flex-box for a clean and responsive display on mobile devices',
     github: 'https://github.com/gavinquirk/Trillo',
@@ -60,6 +64,7 @@ const projects = [
   },
   {
     name: 'Nexter',
+    image: './images/nexter_logo.png',
     description:
       'A page for a high-end real estate company. Using CSS Grid, it allows for a responsive mobile design and image gallery',
     github: 'https://github.com/gavinquirk/nexter',
@@ -67,15 +72,17 @@ const projects = [
   },
   {
     name: 'Burger Builder',
+    image: './images/burger_builder_logo.png',
     description:
       'Create a customized burger and add it to your cart. Created with React and data stored in Google Firebase',
     github: 'https://github.com/gavinquirk/burger-builder',
     deployment: 'https://react-burger-builder-35e0d.firebaseapp.com/'
   },
   {
-    name: 'React E-Commerce',
+    name: 'Phone Finder',
+    image: './images/phone_finder_logo.png',
     description: 'Add phones to your cart, and checkout using PayPal testing',
     github: 'https://github.com/gavinquirk/react-ecommerce',
-    deployment: 'https://www.google.com'
+    deployment: 'http://www.gavinquirk.com'
   }
 ];
