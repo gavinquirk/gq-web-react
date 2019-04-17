@@ -7,9 +7,11 @@ import './NavigationItems.css';
 export default function NavigationItems() {
   return (
     <ul className='NavigationItems'>
-      <NavigationItem section='Home'>Home</NavigationItem>
-      <NavigationItem section='SectionB'>SectionB</NavigationItem>
-      <NavigationItem section='SectionC'>SectionC</NavigationItem>
+      <NavigationItem section='Home'>Top</NavigationItem>
+      <NavigationItem section='SectionB'>About</NavigationItem>
+      <NavigationItem section='SectionC'>Projects</NavigationItem>
+      <NavigationItem section='SectionC'>Testimonials</NavigationItem>
+      <NavigationItem section='SectionC'>Contact</NavigationItem>
     </ul>
   );
 }
