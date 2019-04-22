@@ -12,6 +12,13 @@ export default function NavigationItems() {
       <NavigationItem to='Portfolio'>Projects</NavigationItem>
       <NavigationItem to='Testimonials'>Testimonials</NavigationItem>
       <NavigationItem to='Contact'>Contact</NavigationItem>
+      <a
+        href='/documents/GavinQuirk_Resume.docx'
+        download
+        className='NavigationItem'
+      >
+        Resume
+      </a>
     </ul>
   );
 }
