@@ -12,6 +12,13 @@
 * {
   margin: 0;
   padding: 0;
+
+  /* Fix anti-aliasing after transition */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
