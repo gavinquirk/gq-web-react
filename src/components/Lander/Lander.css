@@ -30,12 +30,17 @@
   width: 700px;
 }
 
-.Lander .computing {
-  width: 1000px;
-}
+/* **** Media Queries **** */
 
 @media only screen and (max-width: 600px) {
   .Lander .avatar {
     width: 300px;
+  }
+}
+
+/* MQ - iPad */
+@media only screen and (max-width: 800px) {
+  .Lander .avatar {
+    width: 500px;
   }
 }

@@ -11,6 +11,7 @@
 
   color: var(--font-light);
 
+  /* Center content div */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +23,16 @@
 }
 
 .introduction-content {
-  padding: 100px 0;
+  padding: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction-content h2 {
+  text-align: center;
 }
 
 .introduction-text {
@@ -40,5 +50,12 @@
 
   .introduction-text {
     width: auto;
+  }
+}
+
+/* MQ - iPad */
+@media only screen and (max-width: 800px) {
+  .introduction-text {
+    width: 500px;
   }
 }

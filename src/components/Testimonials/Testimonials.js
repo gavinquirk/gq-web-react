@@ -42,10 +42,7 @@ export default class Testimonials extends Component {
     return (
       <div className='Testimonials'>
         <h1 className='heading heading-large'>Testimonials</h1>
-        <Slider
-          infinite={true}
-          // autoplay={10000}
-        >
+        <Slider infinite={true} autoplay={10000}>
           {testimonialData.map((testimonial, index) => (
             <div key={index}>
               <Testimonial testimonial={testimonial} />
