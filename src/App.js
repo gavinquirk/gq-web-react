@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import NavBar from './components/Navigation/NavBar';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/Toolbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Toolbar/Backdrop/Backdrop';

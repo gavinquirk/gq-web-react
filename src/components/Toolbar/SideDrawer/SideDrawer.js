@@ -64,6 +64,15 @@ const sideDrawer = props => {
             <span>Contact</span>
           </Link>
         </li>
+        <li>
+          <a
+            href='/documents/GavinQuirk_Resume.docx'
+            download
+            className='NavigationItem'
+          >
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );

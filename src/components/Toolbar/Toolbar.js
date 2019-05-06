@@ -64,6 +64,15 @@ const toolbar = props => (
               <span>Contact</span>
             </Link>
           </li>
+          <li>
+            <a
+              href='/documents/GavinQuirk_Resume.docx'
+              download
+              className='NavigationItem'
+            >
+              <span>Resume</span>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

@@ -2,14 +2,10 @@
   grid-column: 1 / -1;
   /* Styles for fixed nav */
   /* position: fixed; */
-  top: 0;
+  /* top: 0;
   left: 0;
-  height: 56px;
+  height: 56px; */
   /* End fixed nav styles */
-
-  width: 100%;
-
-  /* background-color: lightgray; */
 }
 
 .Toolbar__navigation {
@@ -42,13 +38,32 @@
 }
 
 .Toolbar__navigation-items a {
+  color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.Toolbar__navigation-items a:hover,
+.Toolbar__navigation-items a:after {
+  content: '';
+  background-color: var(--color-blue-medium);
+  height: 2px;
+  display: block;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  width: 0%;
+}
+
+.Toolbar__navigation-items a:hover:after {
+  content: '';
+  height: 2px;
+  visibility: visible;
+  width: 100%;
+}
+
+/* .Toolbar__navigation-items a:hover,
 .Toolbar__navigation-items a:active {
   color: red;
-}
+} */
 
 @media (max-width: 600px) {
   .Toolbar__navigation-items {
