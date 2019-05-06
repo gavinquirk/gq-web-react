@@ -39,4 +39,12 @@
   .App {
     grid-template-rows: 50px auto auto auto auto auto auto auto auto;
   }
+
+  .heading-large {
+    font-size: 35px;
+  }
+
+  .heading-medium {
+    font-size: 25px;
+  }
 }

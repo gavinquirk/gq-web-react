@@ -39,6 +39,13 @@
   width: 700px;
 }
 
+/* MQ - iPad */
+@media only screen and (max-width: 800px) {
+  .introduction-text {
+    width: 500px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .Introduction {
     padding-bottom: 650px;
@@ -50,12 +57,6 @@
 
   .introduction-text {
     width: auto;
-  }
-}
-
-/* MQ - iPad */
-@media only screen and (max-width: 800px) {
-  .introduction-text {
-    width: 500px;
+    padding-bottom: 50px;
   }
 }

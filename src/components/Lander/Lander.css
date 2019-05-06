@@ -32,15 +32,19 @@
 
 /* **** Media Queries **** */
 
-@media only screen and (max-width: 600px) {
-  .Lander .avatar {
-    width: 300px;
-  }
-}
-
 /* MQ - iPad */
 @media only screen and (max-width: 800px) {
   .Lander .avatar {
     width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Lander .avatar {
+    width: 300px;
+  }
+
+  .Lander .subheading {
+    font-size: 20px;
   }
 }
