@@ -35,6 +35,11 @@
   font-size: 30px;
 }
 
+.underline--blue {
+  text-decoration: underline;
+  text-decoration-color: var(--color-blue-medium);
+}
+
 @media only screen and (max-width: 600px) {
   .App {
     grid-template-rows: 50px auto auto auto auto auto auto auto auto;

@@ -48,11 +48,12 @@
 
 @media only screen and (max-width: 600px) {
   .Introduction {
-    padding-bottom: 650px;
+    padding-bottom: 500px;
   }
   .introduction-content {
     width: auto;
     padding: 20px;
+    margin-top: -110px;
   }
 
   .introduction-text {

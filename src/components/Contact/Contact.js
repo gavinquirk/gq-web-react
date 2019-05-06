@@ -8,10 +8,11 @@ export default class Contact extends Component {
       <div className='Contact'>
         <h1 className='heading heading-large'>Contact Me</h1>
         <p>
-          Send me an email at{' '}
+          Send me an email at <br />
           <a href='mailto:gavinquirk.work@gmail.com'>
             gavinquirk.work@gmail.com
           </a>{' '}
+          <br />
           to start planning your project
         </p>
       </div>

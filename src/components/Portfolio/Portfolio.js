@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
 
     return (
       <div className='Portfolio'>
-        <h1 className='heading heading-large'>My Projects</h1>
+        <h1 className='heading heading-large underline--blue'>Projects</h1>
         <div className='portfolio-grid'>
           {/* <PortfolioCard />
           <PortfolioCard />

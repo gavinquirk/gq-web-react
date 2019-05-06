@@ -2,7 +2,7 @@
   grid-column: 1 / -1;
   grid-row: 8;
 
-  padding: 75px 0;
+  padding: 75px 30px;
   background-color: var(--color-blue-light);
   color: var(--font-light);
   text-align: center;

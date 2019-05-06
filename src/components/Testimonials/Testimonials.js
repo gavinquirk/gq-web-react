@@ -41,7 +41,7 @@ export default class Testimonials extends Component {
 
     return (
       <div className='Testimonials'>
-        <h1 className='heading heading-large'>Testimonials</h1>
+        <h1 className='heading heading-large underline--blue'>Testimonials</h1>
         <Slider
           infinite={true}
           autoplay={10000}
