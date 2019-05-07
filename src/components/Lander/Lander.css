@@ -18,6 +18,8 @@
 .Lander .subheading {
   font-size: 28px;
   padding-bottom: 50px;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 
 .Lander img {

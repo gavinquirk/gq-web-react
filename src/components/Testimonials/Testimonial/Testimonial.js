@@ -7,7 +7,9 @@ export default class Testimonial extends Component {
     return (
       <div className='Testimonial'>
         {/* <img src={this.props.testimonial.image} alt='testimonial' /> */}
-        <p>"{this.props.testimonial.content}"</p>
+        <p className='Testimonial__content'>
+          "{this.props.testimonial.content}"
+        </p>
         <br />
         <p>
           {this.props.testimonial.name} - {this.props.testimonial.position}

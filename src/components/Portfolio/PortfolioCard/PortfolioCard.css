@@ -47,6 +47,10 @@
   padding-bottom: 15px;
 }
 
+.portfolio-image-overlay-content p {
+  margin-bottom: 15px;
+}
+
 .portfolio-image-overlay-buttons {
   /* position: absolute;
   bottom: 0;
@@ -85,7 +89,7 @@
 }
 
 .PortfolioCard:hover {
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
   box-shadow: 1px 1px 10px 1px rgba(35, 35, 36, 0.308);
   z-index: 5;
 }

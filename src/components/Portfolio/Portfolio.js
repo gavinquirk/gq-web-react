@@ -54,14 +54,14 @@ const projects = [
     github: 'https://github.com/gavinquirk/natours',
     deployment: 'https://gavinquirk.github.io/natours/'
   },
-  {
-    name: 'Trillo',
-    image: './images/trillo_logo.png',
-    description:
-      'A page for a hotel booking company. It utilizes CSS flex-box for a clean and responsive display on mobile devices',
-    github: 'https://github.com/gavinquirk/Trillo',
-    deployment: 'https://gavinquirk.github.io/Trillo/'
-  },
+  // {
+  //   name: 'Trillo',
+  //   image: './images/trillo_logo.png',
+  //   description:
+  //     'A page for a hotel booking company. It utilizes CSS flex-box for a clean and responsive display on mobile devices',
+  //   github: 'https://github.com/gavinquirk/Trillo',
+  //   deployment: 'https://gavinquirk.github.io/Trillo/'
+  // },
   {
     name: 'Nexter',
     image: './images/nexter_logo.png',
@@ -69,20 +69,20 @@ const projects = [
       'A page for a high-end real estate company. Using CSS Grid, it allows for a responsive mobile design and image gallery',
     github: 'https://github.com/gavinquirk/nexter',
     deployment: 'https://gavinquirk.github.io/nexter/'
-  },
-  {
-    name: 'Burger Builder',
-    image: './images/burger_builder_logo.png',
-    description:
-      'Create a customized burger and add it to your cart. Created with React and data stored in Google Firebase',
-    github: 'https://github.com/gavinquirk/burger-builder',
-    deployment: 'https://react-burger-builder-35e0d.firebaseapp.com/'
-  },
-  {
-    name: 'Phone Finder',
-    image: './images/phone_finder_logo.png',
-    description: 'Add phones to your cart, and checkout using PayPal testing',
-    github: 'https://github.com/gavinquirk/react-ecommerce',
-    deployment: 'http://www.gavinquirk.com'
   }
+  // {
+  //   name: 'Burger Builder',
+  //   image: './images/burger_builder_logo.png',
+  //   description:
+  //     'Create a customized burger and add it to your cart. Created with React and data stored in Google Firebase',
+  //   github: 'https://github.com/gavinquirk/burger-builder',
+  //   deployment: 'https://react-burger-builder-35e0d.firebaseapp.com/'
+  // },
+  // {
+  //   name: 'Phone Finder',
+  //   image: './images/phone_finder_logo.png',
+  //   description: 'Add phones to your cart, and checkout using PayPal testing',
+  //   github: 'https://github.com/gavinquirk/react-ecommerce',
+  //   deployment: 'http://www.gavinquirk.com'
+  // }
 ];

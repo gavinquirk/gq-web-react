@@ -5,21 +5,18 @@
 
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 50px auto auto auto auto auto auto auto auto;
-
-  /* grid-template-areas:
-    'nav nav nav nav nav nav nav nav nav nav nav nav'
-    'lander lander lander lander lander lander lander lander lander lander lander lander'
-    'introduction introduction introduction introduction introduction introduction introduction introduction introduction introduction introduction introduction'
-    'portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio'; */
 }
 
 .heading {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
 }
 
 .heading-large {
   font-size: 50px;
   padding: 10px 20px;
+  letter-spacing: 2px;
 
   margin-bottom: 20px;
 }

@@ -45,8 +45,8 @@ export default class Testimonials extends Component {
         <Slider
           infinite={true}
           autoplay={10000}
-          previousButton={<i class='fas fa-arrow-left slider-button' />}
-          nextButton={<i class='fas fa-arrow-right slider-button' />}
+          previousButton={<i className='fas fa-arrow-left slider-button' />}
+          nextButton={<i className='fas fa-arrow-right slider-button' />}
         >
           {testimonialData.map((testimonial, index) => (
             <div key={index}>
